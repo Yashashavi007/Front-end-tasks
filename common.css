@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+body{
+    background: url("1.2-ftz/bg.jpg") no-repeat;
+    background-size: cover;
+    padding: 0px 15%;
+    box-sizing: border-box;
+}
+
+.header-container{
+    background-color: rgba(62, 90, 133, 1);
+    display: flex;
+    justify-content:space-evenly;
+    width: 350px;
+    color: white;
+    position: relative;
+    float: right;
+    padding: 5px;
+    font-size: small;
+    margin-bottom: 30px;
+}
+
+.header-items a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+
+.logo{
+    position: relative;
+    margin: 15px 25px;
+    z-index: 5;
+    height: 75%;
+    width: 25%;
+    
+}
+
+.navbar-container-outside{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    background-color: rgba(22, 44, 68, 0.8);
+    height: auto;
+    width: 100%;
+    margin-top: -160px;
+}
+
+.navbar-container-inside{
+    box-sizing: border-box;
+    background-color: rgba(22, 44, 68, 0.6);;
+    color: white;
+    border: 1px solid #3e4e57;
+
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    padding: 25px 30px;   
+    width: 100%;
+}
+
+.navbar-items a{
+    color: #9FCFE9;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+    font-size: large;
+    letter-spacing: 1px;
+}
+
+.footer-container{
+    display: flex;
+    background-color: #29416D;
+    justify-content: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: lighter;
+    font-size: small;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.footer-item a{
+    color: inherit;
+    margin: 2px;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1400px) {
+    .navbar-items a{
+        font-size: 15px;
+    }
+
+    .logo{
+        margin: 50px 25px;
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar-items a{
+        font-size: small;
+        margin-right: 10px;
+    }
+
+    .logo{
+        width: 20%;
+        margin: 50px 15px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-items a{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .navbar-container-inside{
+        padding: 25px 10px; 
+    }
+    .navbar-items a{
+        font-size: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .footer-item{
+        font-size: 10px;
+    }
+}

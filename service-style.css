@@ -1,0 +1,129 @@
+@import url("common.css");
+
+.main-container-outside{
+    background-color: rgba(15, 30, 51, 0.8);
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.main-container-inside{ 
+    border: 1px solid transparent;
+    border-image: linear-gradient(rgba(107, 106, 122,0), rgb(107, 106, 122));
+    border-image-slice: 1;  
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: fit-content;
+    width: 100%;
+    position: relative;
+}
+
+.main-items.item1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+}
+
+.main-items.item1 img{
+    margin: 25px 25px 0px 25px;
+    height: 25%;
+    width: 80%;
+}
+
+.main-items.item1 .left-links{
+    margin: 25px 25px;
+    padding: 20px 0px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 14px;
+    line-height: 15px; 
+    border-top: 1px solid rgb(107, 106, 122); 
+    border-bottom: 1px solid rgb(107, 106, 122);  
+}
+
+.main-items.item1 .left-links a{
+    color: white;
+}
+
+.main-items.item2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 20px 25px 0px 0px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: lighter;
+    line-height: 20px;
+    word-spacing: 2px;
+}
+
+.main-items.item2 h2{
+    color: #ADC1DC;
+    margin-bottom: 20px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.main-items.item2 a{
+    color: #ADC1DC;
+}
+
+.main-items.item2 p{
+    margin-bottom: 20px;
+}
+
+.main-items.item2 .button{
+    background-color: #10223A;
+    margin: 30px 0px;
+    padding: 15px 25px;
+    border-top: 1px solid rgb(107, 106, 122);
+    border-bottom: 1px solid rgb(107, 106, 122);
+}
+
+.main-items.item2 .button p{
+    font-size: 15px;
+}
+
+.main-items.item2 button{
+    background-image: linear-gradient(#145D76, #193A5B);
+    color: white;
+    border: 1px solid #145D76;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: bold;
+    padding: 3px 7px;
+}
+
+@media screen and (max-width: 1000px) {
+    .main-items.item2 p{
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .main-container-inside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-items.item1 .left-links a{
+        margin : 0px 25%;
+    }
+
+    .main-items.item2{
+        align-items: center;
+        margin: 20px 20px;
+    }
+
+    .main-items.item2 li{
+        font-size: small;
+    }
+
+
+}
+
+
+
+
+
+

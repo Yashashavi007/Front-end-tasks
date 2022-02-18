@@ -1,0 +1,208 @@
+body{
+    margin-top: 0;
+    width: 100%;
+    background-image: url("1.2-ftz/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+header{
+    display: block;
+    background-color: #3b5b8a;
+    color: white;
+    font-family: Arial;
+    font-size: small;
+    padding: 5px 5px;
+    margin: 0px 15%;
+    float: right;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: x-small;
+}
+
+nav{
+    background-color: #162c44;
+    color: #fafbfb;
+    font-family: Arial;
+    font-size: large;
+    padding: 25px 25px;
+    text-align: right;
+    margin: -125px 15%;
+}
+
+nav a{
+    font-family: Arial;
+    font-size: large;
+    color: #a0d2ee;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 0px 10px;
+}
+
+nav a:hover{
+    background-color: #48687f;
+    padding: 1%;
+}
+
+.logo{
+    margin-left: 18%;
+    margin-top: 20px;
+    /* z-index: 1; */
+}
+
+.banner{
+    display: inline-block;
+    margin: 103px 15%;
+    padding: 25px 50px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.banner h1{
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: 5px;
+}
+
+.content{
+    background-color: #10223a;
+    margin: -103px 15%;
+    padding: 30px 30px;
+    columns: 3;
+}
+
+.content p{
+    color: white;
+    font-family: Arial;
+    text-align: left;
+    font-size: 12px;
+    word-spacing: 5px;
+    font-weight: bold;
+    width: 85%;
+}
+
+.content a{
+    color: #99cae0;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.service-content{
+    display: block;
+    background-color: #0d1b35;
+    margin: 180px 15%;
+    color: white;
+    padding: 25px 25px;
+    opacity: 0.87;
+    font-family: Arial;
+    font-size: 13px;
+    min-height: 450px;
+}
+
+.casestudy-image{
+    margin-bottom: 20px;
+}
+
+.left{
+    width: 27%;
+    float: left;
+    line-height: 20px;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid white;
+    border-bottom: none;
+}
+
+.right{
+    width: 67%;
+    float: left;
+    margin-top: -20px;
+    margin-left: 60px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.right h2{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.right a{
+    color: #aac5fa;
+}
+
+.question{
+    background-color: #10223a;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.question button{
+    background-image: linear-gradient( #155d76 ,#112e47);
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 12px;
+    /* transition: 0.5s; */
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 5px;
+    display: block;   
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #29416d;
+    margin: 110px 15%;
+    text-align: center;
+    padding: 1px 0px;
+}
+
+.service-footer{
+    background-color: #29416d;
+    margin: -170px 15%;
+    padding: 1px 0px;
+    text-align: center;
+}
+
+.footer p,a{
+    color: #c0cbe6;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.footer a{
+    color: white;
+}
+
+.service-footer p,a{
+    color: #c0cbe6;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.service-footer a{
+    color: white;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1300px){
+    
+}
