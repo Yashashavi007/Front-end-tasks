@@ -1,0 +1,197 @@
+.header{
+    margin: 0% 10%;
+}
+
+.logo{
+    margin: 10px 0px;
+    float: left;
+}
+
+.header ul{
+    float: right;
+    font-family: Calibri;
+    color: grey;
+}
+
+.header ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 30px 10px 0px 10px;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart a{
+    text-decoration: none;
+    color: rgb(8, 8, 151);
+}
+
+.navbar ul{
+    background-color: #D8D6D7;
+    width: 100%;
+    border-top: 2px solid #b8b7b8 ;
+    border-bottom: 2px solid #b8b7b8 ;
+    display: flex;
+    justify-content: center;
+    font-family: Calibri
+}
+
+.navbar ul li{
+    display: block;
+    align-self: center;
+    padding: 10px 20px;
+    border-right: 2px solid rgb(230, 229, 229);    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;   
+    font-weight: 500;
+}
+
+.search-box{
+    height: 25px;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    border-top: 3px ridge grey;
+    border-left: 3px ridge grey;
+}
+
+button{
+    height: 20px;
+    width: 30px;
+    margin-top: 12px;
+    padding-top: 1px;
+    border-radius: 5px;
+}
+
+.banner{
+    padding: 0% 10%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px ridge rgb(196, 193, 193);
+    border-bottom: 2px ridge rgb(233, 227, 227);
+}
+
+.left-banner{
+    font-family: Calibri;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.left-banner a,p{
+    text-decoration: none;
+    color:#807b7d ;
+    margin: 0px 5px;
+}
+
+.left-banner li{
+    margin-left: 25px;
+    list-style-type: circle;
+}
+
+.right-banner img{
+    margin-top: 5px;
+    height: 90%;
+}
+
+.right-banner{
+    display: flex;
+    justify-content: center;
+    margin: 0px 25px;
+}
+
+.right-banner a{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    margin-right: 50px;
+    font-family: Calibri;
+    text-decoration: none;
+    
+}
+
+/* Media Query */
+@media screen and (max-width: 1200px) {
+    .header ul{
+        font-size: 12px;
+    }
+
+    .cart p,a{
+        margin-top: 5px;
+    }
+
+    .navbar ul li{
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+
+    .banner{
+        padding: 0% 5%;
+    }
+    .left-banner{
+        font-size: 13px;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+    .header{
+        margin-right: 3%;
+    }
+    
+    .header ul{
+        font-size: 10px;
+    }
+    .cart p,a{
+        margin-top: 7px;
+    }
+
+    .navbar ul li{
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+
+    
+    .search-box{
+        height: 20px;
+        width: 150px;
+        margin: 10px;
+        padding: 5px;
+        margin-left: 10px;
+        border-top: 3px ridge grey;
+        border-left: 3px ridge grey;
+    }
+
+    .search-box::placeholder{
+        font-size: 12px;
+    }
+
+    button{
+        height: 20px;
+        width: 30px;
+        margin-top: 10px;
+        padding-top: 1px;
+        border-radius: 5px;
+    }
+
+    .banner{
+        padding: 0% 5%;
+    }
+
+    .left-banner{
+        font-size: 10px;
+    }
+
+    .right-banner{
+        margin-right: 1px;
+    }
+}
